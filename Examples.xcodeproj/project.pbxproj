@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		F2568D222603A69400B8B280 /* macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D212603A69400B8B280 /* macOSApp.swift */; };
 		F2568D242603A69400B8B280 /* CursorUnreliableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D232603A69400B8B280 /* CursorUnreliableView.swift */; };
-		F2568D262603A69400B8B280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2568D252603A69400B8B280 /* Assets.xcassets */; };
-		F2568D292603A69400B8B280 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2568D282603A69400B8B280 /* Preview Assets.xcassets */; };
 		F2568D372603AAED00B8B280 /* NestedHoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D362603AAED00B8B280 /* NestedHoverView.swift */; };
 		F2568D3A2603AB9B00B8B280 /* ScrollViewIndicatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D392603AB9B00B8B280 /* ScrollViewIndicatorsView.swift */; };
 		F2568D3F2603ADA700B8B280 /* UppercasedTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D3E2603ADA700B8B280 /* UppercasedTextFieldView.swift */; };
@@ -21,8 +19,6 @@
 		F2568D1F2603A69400B8B280 /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2568D212603A69400B8B280 /* macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSApp.swift; sourceTree = "<group>"; };
 		F2568D232603A69400B8B280 /* CursorUnreliableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorUnreliableView.swift; sourceTree = "<group>"; };
-		F2568D252603A69400B8B280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F2568D282603A69400B8B280 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2568D2A2603A69400B8B280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2568D2B2603A69400B8B280 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		F2568D362603AAED00B8B280 /* NestedHoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedHoverView.swift; sourceTree = "<group>"; };
@@ -67,20 +63,10 @@
 				F2568D3E2603ADA700B8B280 /* UppercasedTextFieldView.swift */,
 				F2568D412603AFB600B8B280 /* TextFieldFormatterView.swift */,
 				F2568D362603AAED00B8B280 /* NestedHoverView.swift */,
-				F2568D252603A69400B8B280 /* Assets.xcassets */,
 				F2568D2A2603A69400B8B280 /* Info.plist */,
 				F2568D2B2603A69400B8B280 /* macOS.entitlements */,
-				F2568D272603A69400B8B280 /* Preview Content */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		F2568D272603A69400B8B280 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				F2568D282603A69400B8B280 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +126,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2568D292603A69400B8B280 /* Preview Assets.xcassets in Resources */,
-				F2568D262603A69400B8B280 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +271,6 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"macOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,7 +292,6 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"macOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
