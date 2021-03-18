@@ -43,3 +43,11 @@ Radar: [FB9047229](https://openradar.appspot.com/radar?id=5040168704671744)
 TextFields on macOS ignores `.textCase` modifiers. The given case is applied only to the placeholder, but not to the typed content.
 
 Preview: [UppercasedTextFieldView](/macOS/UppercasedTextFieldView.swift)
+
+## TextField formatter is only applied on commit
+
+Radar: [FB9047243](https://openradar.appspot.com/radar?id=4964477455826944)
+
+TextField formatter is applied only on commit, not as the user types into the field.
+
+Preview: [TextFieldFormatterView](/macOS/TextFieldFormatterView.swift)

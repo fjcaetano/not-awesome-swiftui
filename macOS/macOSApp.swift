@@ -13,6 +13,8 @@ struct macOSApp: App {
                     NavigationLink("ScrollView indicators", destination: ScrollViewIndicatorsView())
 
                     NavigationLink("Uppercased TextField", destination: UppercasedTextFieldView())
+
+                    NavigationLink("TextField formatter", destination: TextFieldFormatterView())
                 }
             }
         }
