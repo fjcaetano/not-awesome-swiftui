@@ -7,6 +7,8 @@ struct macOSApp: App {
             NavigationView {
                 List {
                     NavigationLink("Cursor unreliable", destination: CursorUnreliableView())
+
+                    NavigationLink("Nested Hovers", destination: NestedHoverView())
                 }
             }
         }
