@@ -7,7 +7,7 @@ This project aims to shed a light on some of it's bugs that you should be aware 
 
 # macOS Issues
 
-Known issues on macOS
+All the issues described here have been observed and are reproducible in the latest major macOS version: 11.0 (BigSur)
 
 ## Cursor system is unreliable
 
