@@ -9,6 +9,8 @@ struct macOSApp: App {
                     NavigationLink("Cursor unreliable", destination: CursorUnreliableView())
 
                     NavigationLink("Nested Hovers", destination: NestedHoverView())
+
+                    NavigationLink("ScrollView indicators", destination: ScrollViewIndicatorsView())
                 }
             }
         }

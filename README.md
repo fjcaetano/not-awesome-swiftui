@@ -25,3 +25,13 @@ When rendering a ZStack, if any Views with a lower `zIndex` than its siblings ap
 
 
 Preview: [NestedHoverView](/macOS/NestedHoverView.swift)
+
+## ScrollView update improperly renders content disregarding indicators
+
+Radar: [9038728](https://openradar.appspot.com/radar?id=5016967895318528)
+
+When updating the content of a ScrollView, if the new content requires the indicators to be visible (i.e. expanding the content size) the content will be improperly rendered with the full ScrollView width disregarding the ScrollView's indicators which will cover some of the content.
+
+A workaround is manually forcing the ScrollView to be re-updated either by changing a state or an observed object.
+
+Preview: [ScrollViewIndicatorsView](/macOS/ScrollViewIndicatorsView.swift)
