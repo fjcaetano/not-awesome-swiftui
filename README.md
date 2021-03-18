@@ -35,3 +35,11 @@ When updating the content of a ScrollView, if the new content requires the indic
 A workaround is manually forcing the ScrollView to be re-updated either by changing a state or an observed object.
 
 Preview: [ScrollViewIndicatorsView](/macOS/ScrollViewIndicatorsView.swift)
+
+## TextField ignores `.textCase`
+
+Radar: [FB9047229](https://openradar.appspot.com/radar?id=5040168704671744)
+
+TextFields on macOS ignores `.textCase` modifiers. The given case is applied only to the placeholder, but not to the typed content.
+
+Preview: [UppercasedTextFieldView](/macOS/UppercasedTextFieldView.swift)

@@ -13,6 +13,7 @@
 		F2568D292603A69400B8B280 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2568D282603A69400B8B280 /* Preview Assets.xcassets */; };
 		F2568D372603AAED00B8B280 /* NestedHoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D362603AAED00B8B280 /* NestedHoverView.swift */; };
 		F2568D3A2603AB9B00B8B280 /* ScrollViewIndicatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D392603AB9B00B8B280 /* ScrollViewIndicatorsView.swift */; };
+		F2568D3F2603ADA700B8B280 /* UppercasedTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D3E2603ADA700B8B280 /* UppercasedTextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F2568D2B2603A69400B8B280 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		F2568D362603AAED00B8B280 /* NestedHoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedHoverView.swift; sourceTree = "<group>"; };
 		F2568D392603AB9B00B8B280 /* ScrollViewIndicatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewIndicatorsView.swift; sourceTree = "<group>"; };
+		F2568D3E2603ADA700B8B280 /* UppercasedTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UppercasedTextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F2568D212603A69400B8B280 /* macOSApp.swift */,
 				F2568D232603A69400B8B280 /* CursorUnreliableView.swift */,
 				F2568D392603AB9B00B8B280 /* ScrollViewIndicatorsView.swift */,
+				F2568D3E2603ADA700B8B280 /* UppercasedTextFieldView.swift */,
 				F2568D362603AAED00B8B280 /* NestedHoverView.swift */,
 				F2568D252603A69400B8B280 /* Assets.xcassets */,
 				F2568D2A2603A69400B8B280 /* Info.plist */,
@@ -149,6 +152,7 @@
 				F2568D242603A69400B8B280 /* CursorUnreliableView.swift in Sources */,
 				F2568D372603AAED00B8B280 /* NestedHoverView.swift in Sources */,
 				F2568D3A2603AB9B00B8B280 /* ScrollViewIndicatorsView.swift in Sources */,
+				F2568D3F2603ADA700B8B280 /* UppercasedTextFieldView.swift in Sources */,
 				F2568D222603A69400B8B280 /* macOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,6 +11,8 @@ struct macOSApp: App {
                     NavigationLink("Nested Hovers", destination: NestedHoverView())
 
                     NavigationLink("ScrollView indicators", destination: ScrollViewIndicatorsView())
+
+                    NavigationLink("Uppercased TextField", destination: UppercasedTextFieldView())
                 }
             }
         }
