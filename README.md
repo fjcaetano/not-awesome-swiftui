@@ -51,3 +51,11 @@ Radar: [FB9047243](https://openradar.appspot.com/radar?id=4964477455826944)
 TextField formatter is applied only on commit, not as the user types into the field.
 
 Preview: [TextFieldFormatterView](/macOS/TextFieldFormatterView.swift)
+
+## List style modifiers are not applied
+
+Radar: [FB9071516](https://openradar.appspot.com/radar?id=4980437755625472)
+
+List-specific modifiers applied to a List view are not applied. Even the generic "background" modifier is ignored.
+
+Preview: [ListStyleView](/macOS/ListStyleView.swift)

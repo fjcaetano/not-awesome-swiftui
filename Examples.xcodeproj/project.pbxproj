@@ -13,6 +13,7 @@
 		F2568D3A2603AB9B00B8B280 /* ScrollViewIndicatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D392603AB9B00B8B280 /* ScrollViewIndicatorsView.swift */; };
 		F2568D3F2603ADA700B8B280 /* UppercasedTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D3E2603ADA700B8B280 /* UppercasedTextFieldView.swift */; };
 		F2568D422603AFB600B8B280 /* TextFieldFormatterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D412603AFB600B8B280 /* TextFieldFormatterView.swift */; };
+		F26F6F3F261E01D400E3A7BE /* ListStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F6F3E261E01D400E3A7BE /* ListStyleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F2568D392603AB9B00B8B280 /* ScrollViewIndicatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewIndicatorsView.swift; sourceTree = "<group>"; };
 		F2568D3E2603ADA700B8B280 /* UppercasedTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UppercasedTextFieldView.swift; sourceTree = "<group>"; };
 		F2568D412603AFB600B8B280 /* TextFieldFormatterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFormatterView.swift; sourceTree = "<group>"; };
+		F26F6F3E261E01D400E3A7BE /* ListStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStyleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F2568D3E2603ADA700B8B280 /* UppercasedTextFieldView.swift */,
 				F2568D412603AFB600B8B280 /* TextFieldFormatterView.swift */,
 				F2568D362603AAED00B8B280 /* NestedHoverView.swift */,
+				F26F6F3E261E01D400E3A7BE /* ListStyleView.swift */,
 				F2568D2A2603A69400B8B280 /* Info.plist */,
 				F2568D2B2603A69400B8B280 /* macOS.entitlements */,
 			);
@@ -140,6 +143,7 @@
 				F2568D372603AAED00B8B280 /* NestedHoverView.swift in Sources */,
 				F2568D3A2603AB9B00B8B280 /* ScrollViewIndicatorsView.swift in Sources */,
 				F2568D422603AFB600B8B280 /* TextFieldFormatterView.swift in Sources */,
+				F26F6F3F261E01D400E3A7BE /* ListStyleView.swift in Sources */,
 				F2568D3F2603ADA700B8B280 /* UppercasedTextFieldView.swift in Sources */,
 				F2568D222603A69400B8B280 /* macOSApp.swift in Sources */,
 			);
