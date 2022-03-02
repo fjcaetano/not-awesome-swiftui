@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F212004727C966150091101A /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F212004627C966150091101A /* iOSApp.swift */; };
+		F212004B27C966180091101A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F212004A27C966180091101A /* Assets.xcassets */; };
+		F212004E27C966180091101A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F212004D27C966180091101A /* Preview Assets.xcassets */; };
+		F212005327C966710091101A /* NestedButtonStyleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F212005227C966710091101A /* NestedButtonStyleExample.swift */; };
 		F2568D222603A69400B8B280 /* macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D212603A69400B8B280 /* macOSApp.swift */; };
 		F2568D242603A69400B8B280 /* CursorUnreliableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D232603A69400B8B280 /* CursorUnreliableView.swift */; };
 		F2568D372603AAED00B8B280 /* NestedHoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2568D362603AAED00B8B280 /* NestedHoverView.swift */; };
@@ -17,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F212004427C966150091101A /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F212004627C966150091101A /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
+		F212004A27C966180091101A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F212004D27C966180091101A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F212005227C966710091101A /* NestedButtonStyleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedButtonStyleExample.swift; sourceTree = "<group>"; };
 		F2568D1F2603A69400B8B280 /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2568D212603A69400B8B280 /* macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSApp.swift; sourceTree = "<group>"; };
 		F2568D232603A69400B8B280 /* CursorUnreliableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorUnreliableView.swift; sourceTree = "<group>"; };
@@ -30,6 +39,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F212004127C966150091101A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2568D1C2603A69400B8B280 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -40,10 +56,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F212004527C966150091101A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F212004627C966150091101A /* iOSApp.swift */,
+				F212005227C966710091101A /* NestedButtonStyleExample.swift */,
+				F212004A27C966180091101A /* Assets.xcassets */,
+				F212004C27C966180091101A /* Preview Content */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F212004C27C966180091101A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F212004D27C966180091101A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		F2568CE82603A63800B8B280 = {
 			isa = PBXGroup;
 			children = (
 				F2568D202603A69400B8B280 /* macOS */,
+				F212004527C966150091101A /* iOS */,
 				F2568CF22603A63800B8B280 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				F2568D1F2603A69400B8B280 /* macOS.app */,
+				F212004427C966150091101A /* iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +112,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F212004327C966150091101A /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F212005127C966180091101A /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				F212004027C966150091101A /* Sources */,
+				F212004127C966150091101A /* Frameworks */,
+				F212004227C966150091101A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = iOS;
+			productReference = F212004427C966150091101A /* iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F2568D1E2603A69400B8B280 /* macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2568D2C2603A69400B8B280 /* Build configuration list for PBXNativeTarget "macOS" */;
@@ -98,9 +152,12 @@
 		F2568CE92603A63800B8B280 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					F212004327C966150091101A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					F2568D1E2603A69400B8B280 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -120,11 +177,21 @@
 			projectRoot = "";
 			targets = (
 				F2568D1E2603A69400B8B280 /* macOS */,
+				F212004327C966150091101A /* iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F212004227C966150091101A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F212004E27C966180091101A /* Preview Assets.xcassets in Resources */,
+				F212004B27C966180091101A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2568D1D2603A69400B8B280 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,6 +202,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F212004027C966150091101A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F212005327C966710091101A /* NestedButtonStyleExample.swift in Sources */,
+				F212004727C966150091101A /* iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2568D1B2603A69400B8B280 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -152,6 +228,69 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		F212004F27C966180091101A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flaviocaetano.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F212005027C966180091101A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flaviocaetano.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		F2568CFF2603A63900B8B280 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -312,6 +451,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F212005127C966180091101A /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F212004F27C966180091101A /* Debug */,
+				F212005027C966180091101A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F2568CEC2603A63800B8B280 /* Build configuration list for PBXProject "Examples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
